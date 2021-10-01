@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+body {
+  width: 1440px;
+  background: url("/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  font-family: "red hat display", sans-serif;
+}
+.container {
+  position: absolute;
+  margin: 4em 30%;
+  background-color: #ffffff;
+  width: 450px;
+  height: 650px;
+  border-radius: 20px;
+  text-align: center;
+}
+.container img {
+  border-radius: 20px 20px 0 0;
+}
+.container h1 {
+  font-weight: 700;
+}
+.description {
+  color: grey;
+}
+.plan {
+  text-align: left;
+  background: hsl(225, 100%, 98%);
+  height: 100px;
+  width: 350px;
+  margin: 0 0 0 50px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.plan img {
+  position: relative;
+  left: 20px;
+  top: 26px;
+}
+.plan ul {
+  list-style: none;
+  position: relative;
+  left: 40px;
+  bottom: 45px;
+}
+.price {
+  color: hsl(224, 23%, 55%);
+  margin: 8px 0 0 0;
+  font-weight: 500;
+}
+.change-link a {
+  position: relative;
+  left: 110px;
+  bottom: 70px;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+.change-link:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+.payment-btn {
+  position: relative;
+  bottom: 20px;
+  font-size: 18px;
+  background: hsl(245, 75%, 52%);
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 20px;
+  width: 350px;
+  height: 60px;
+  box-shadow: 3px 5px 8px grey;
+}
+.payment-btn:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+.cancel-btn {
+  background: none;
+  border: none;
+  color: hsl(224, 23%, 55%);
+  font-size: 15px;
+  margin: 10px 0 0 0;
+}
+.cancel-btn:hover {
+  color: black;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  left: 112px;
+  margin: 0 30%;
+}
+footer p {
+}
